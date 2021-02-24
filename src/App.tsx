@@ -33,7 +33,7 @@ const Cube : FunctionComponent<CubeProps> = ({items, color, directionValue}) => 
     setIsHovered(value)
   }, [setIsHovered])
 
-  const texture_1 = useLoader(TextureLoader, '/pp.png')
+  const texture_1 = useLoader(TextureLoader, '/github.png')
 
   return (
     <mesh ref={myGeometry}
